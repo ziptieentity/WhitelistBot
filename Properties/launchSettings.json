@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WhitelistBot": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

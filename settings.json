@@ -1,0 +1,12 @@
+{
+  "RCON": {
+    "IP": "ip.ziptieentity.com",
+    "Port": 9679
+  },
+  "Discord": {
+    "WhitelistChannel": "1554538036627505382"
+  },
+  "Minecraft": {
+    "Version": "26.3"
+  }
+}
