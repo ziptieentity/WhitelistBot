@@ -11,7 +11,7 @@ public sealed class DiscordControlMessage(IConfiguration config)
     public ulong MessageId => _messageId ?? LoadControlMessage();
 
     public EmbedBuilder Embed { get; } = new EmbedBuilder()
-        .WithTitle("Cybergoons MC Whitelist")
+        .WithTitle($"{config["Minecraft:Name"]} Whitelist")
         .WithDescription(
             "Click the buttons below to manage your whitelist on the MC server.")
         .WithFields().AddField("IP", "ip.ziptieentity.com")
