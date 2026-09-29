@@ -14,7 +14,7 @@ public sealed class DiscordControlMessage(IConfiguration config)
         .WithTitle($"{config["Minecraft:Name"]} Whitelist")
         .WithDescription(
             "Click the buttons below to manage your whitelist on the MC server.")
-        .WithFields().AddField("IP", "ip.ziptieentity.com")
+        .WithFields().AddField("IP", $"{config["Minecraft:IP"]}")
         .WithFields().AddField("Version", config["Minecraft:Version"] ?? "Unknown")
         .WithColor(Color.Blue);
 
